@@ -1,0 +1,45 @@
+users
+=====
+id      slug        name      email     password        address     phone_no    image    role
+
+courses_users
+=============
+id      courses_id      users_id
+
+courses
+=======
+id      slug    course_name      platform    course_outline   course_description      create_date
+
+courses_exams
+============
+id      exams_id    courses_id
+
+exams
+=====
+id        slug    exam_title      exam_description     create_date    time_limit   
+
+
+exams_questions
+=============
+id      exams_id        questions_id
+
+questions
+=========
+id      slug        questions_title     mark
+
+answers
+========
+id      questions_id    slug    answer      isAnswer
+
+
+users_exams
+============
+id      users_id      exams_id      submit_date   submit_time
+
+users_answer
+==============
+id      answers_id        users_id
+
+users
+=====
+id      slug        name      email     password        address     phone_no    image    role
