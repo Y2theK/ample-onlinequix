@@ -35,6 +35,9 @@ if((User::auth()))
     
     <!-- Custom CSS -->
     <link href="template/css/style.min.css" rel="stylesheet">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -141,7 +144,7 @@ if((User::auth()))
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="index.php"
                                 aria-expanded="false">
                                 <i class="far fa-clock" aria-hidden="true"></i>
-                                <span class="hide-menu">Dashboard</span>
+                                <span class="hide-menu mx-2">Dashboard</span>
                             </a>
                         </li>
                         <?php if(isset($user)): ?>
@@ -149,7 +152,7 @@ if((User::auth()))
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="courses.php"
                                 aria-expanded="false">
                                 <i class="fa fa-font" aria-hidden="true"></i>
-                                <span class="hide-menu">Courses</span>
+                                <span class="hide-menu mx-2">Courses</span>
                             </a>
                         </li>
                         
@@ -158,7 +161,7 @@ if((User::auth()))
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="add-course.php"
                                 aria-expanded="false">
                                 <i class="fa fa-plus-circle" aria-hidden="true"></i>
-                                <span class="hide-menu">Add Courses</span>
+                                <span class="hide-menu mx-2">Add Courses</span>
                             </a>
                         </li>
                         <?php endif; ?> 
@@ -167,7 +170,7 @@ if((User::auth()))
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="exams.php"
                                 aria-expanded="false">
                                 <i class="fas fa-indent" aria-hidden="true"></i>
-                                <span class="hide-menu">Manage Exam</span>
+                                <span class="hide-menu mx-2">Manage Exam</span>
                             </a>
                         </li>
                         
@@ -176,7 +179,7 @@ if((User::auth()))
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="add-exam.php"
                                 aria-expanded="false">
                                 <i class="fa fa-table" aria-hidden="true"></i>
-                                <span class="hide-menu">Make Exam</span>
+                                <span class="hide-menu mx-2">Make Exam</span>
                             </a>
                         </li>
                         <?php endif; ?>
@@ -186,7 +189,7 @@ if((User::auth()))
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="exam-result.php"
                                 aria-expanded="false">
                                 <i class="far fa-bookmark" aria-hidden="true"></i>
-                                <span class="hide-menu">Exam Result</span>
+                                <span class="hide-menu mx-2">Exam Result</span>
                             </a>
                         </li>
                         <?php if($user->role == "Admin"): ?>
@@ -194,7 +197,7 @@ if((User::auth()))
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="user-detail.php"
                                 aria-expanded="false">
                                 <i class="fas fa-list-ol" aria-hidden="true"></i>
-                                <span class="hide-menu">User Details</span>
+                                <span class="hide-menu mx-2">User Details</span>
                             </a>
                         </li>
                         <?php endif; ?>
@@ -202,7 +205,7 @@ if((User::auth()))
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="profile.php"
                                 aria-expanded="false">
                                 <i class="fa fa-user" aria-hidden="true"></i>
-                                <span class="hide-menu">Profile</span>
+                                <span class="hide-menu mx-2">Profile</span>
                             </a>
                         </li>
                        
