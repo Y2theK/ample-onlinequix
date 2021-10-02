@@ -5,8 +5,14 @@ class DB
     private static $res,$data,$count,$sql;
     public function __construct()
     {
-        // self::$dbh = new PDO("mysql:host=localhost;dbname=online_quiz_system","root","");
-        self::$dbh = new PDO("mysql:host=remotemysql.com;dbname=yfrmNVVGdc","yfrmNVVGdc","IqMXPOkjzo");
+    	// localhost
+        // self::$dbh = new PDO("mysql:host=localhost;dbname=ample-onlinequiz","root","");
+       
+        // remotesql ample
+        // self::$dbh = new PDO("mysql:host=remotemysql.com;dbname=yfrmNVVGdc","yfrmNVVGdc","IqMXPOkjzo");
+
+        // remotemysql ample2
+        self::$dbh = new PDO("mysql:host=remotemysql.com;dbname=gjURwQyx8c","gjURwQyx8c","NAHUv07mG3");
         self::$dbh->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
     }
     public function query($params = [])

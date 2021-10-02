@@ -24,7 +24,7 @@ if($_POST)
                                 <li><a href="index.php" class="fw-normal">Dashboard</a></li>
                             </ol>
                             <a href="register.php"
-                                class="btn btn-danger  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Create Account
+                                class="btn btn-danger d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Create Account
                                 </a>
                         </div>
                     </div>
@@ -77,9 +77,16 @@ if($_POST)
                                             <input type="reset" name="" id="" value="Cancel" class="btn btn-outline-success">
                                         </div>
                                     </div>
+
                                 </form>
+                                
                             </div>
+
                         </div>
+                                <div>
+                                    <p class="text-center">Do you have an acount ? <a href="register.php">Sign Up Here</a></p>
+
+                                </div>
                     </div>
                     <!-- Column -->
                 </div>

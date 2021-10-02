@@ -43,7 +43,7 @@ if($_POST)
                                 <li><a href="login.php" class="fw-normal text-danger">Login</a></li>
                             </ol>
                             <a href="register.php"
-                                class="btn btn-danger  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Register</a>
+                                class="btn btn-danger d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Register</a>
                         </div>
                     </div>
                     <?php endif ?>
