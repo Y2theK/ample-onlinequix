@@ -32,3 +32,20 @@ I use pure PHP and mysql for this project and use ample admin dashboard for fron
 
 ## Techlogies used
 `Pure PHP` `Mysql` `Ample admin dashboard `
+
+## Screenshot
+![Mockup Screen](https://github.com/Y2theK/tgno/blob/main/assets/img/MacBook%2C%20iPhone%20X%2C%20and%20screen.jpg "MockUp")
+
+## Author
+**Ye Yint Kyaw**
+
+[Profile](https://www.github.com/Y2theK) ( https://www.github.com/Y2theK )
+
+[Email](mailto:yeyintkyaw300@gmail.com?subject=Hi "Hi!") ( mailto:yeyintkyaw300@gmail.com )
+
+## 🤝 Support
+
+Contributions, issues, and feature requests are welcome!
+
+Give a ⭐️ if you like this project!
+
