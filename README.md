@@ -34,7 +34,7 @@ I use pure PHP and mysql for this project and use ample admin dashboard for fron
 `Pure PHP` `Mysql` `Ample admin dashboard `
 
 ## Screenshot
-![Mockup Screen](https://github.com/Y2theK/tgno/blob/main/assets/img/MacBook%2C%20iPhone%20X%2C%20and%20screen.jpg "MockUp")
+![Mockup Screen](https://github.com/Y2theK/ample-onlinequiz/blob/master/assets/demo%20images/studentPanel.PNG "MockUp")
 
 ## Author
 **Ye Yint Kyaw**
