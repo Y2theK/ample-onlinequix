@@ -6,13 +6,13 @@ class DB
     public function __construct()
     {
     	// localhost
-        // self::$dbh = new PDO("mysql:host=localhost;dbname=ample-onlinequiz","root","");
+        self::$dbh = new PDO("mysql:host=localhost;dbname=ample-onlinequiz","root","");
        
         // remotesql ample
         // self::$dbh = new PDO("mysql:host=remotemysql.com;dbname=yfrmNVVGdc","yfrmNVVGdc","IqMXPOkjzo");
 
         // remotemysql ample2
-        self::$dbh = new PDO("mysql:host=remotemysql.com;dbname=gjURwQyx8c","gjURwQyx8c","NAHUv07mG3");
+        // self::$dbh = new PDO("mysql:host=remotemysql.com;dbname=gjURwQyx8c","gjURwQyx8c","NAHUv07mG3");
         self::$dbh->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
     }
     public function query($params = [])

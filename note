@@ -1,0 +1,8 @@
+crtl + shift + p => command
+crtl + alt + n =>advanced new file
+crt + shift + a => for block of code between that selected tag
+crt + shift + a (double) => for block of code including that selected tag
+crtl + L => select one line
+crtl + shift + r => go to method in porject
+crtl +kb => toggle sidebar
+f11 => exit full screen

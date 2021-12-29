@@ -4,7 +4,7 @@ if(!$user)
     Helper::redirect('index.php');
 }
 
-if(isset($_POST))
+if(($_SERVER['REQUEST_METHOD'] == 'POST'))
 {
     $user = User::auth(); 
     $user = DB::update('users',[

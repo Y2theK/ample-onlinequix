@@ -202,16 +202,16 @@ if(isset($_GET['delete']))
                                                                 <td class="txt-oflo"><?= Exam::getTotalMark($ex->id) ?></td>
                                                                 <td><span class="text-danger"><?= $ex->time_limit ?></span></td>
                                                                 <td>
-                                                                    <?php if($ex->lunch_date >= date('Y-m-d')):
+                                                                    <?php if($ex->lunch_date <= date('Y-m-d')):
                                                                             $stu_exam = DB::table('students_exams')->where('exam_id',$ex->id)->andWhere('student_id',$user->id)->getOne();
                                                                             if(!$stu_exam):
                                                                     ?>
-                                                                    <a href="answer-exam.php?slug=<?= $ex->slug ?>" class="text-primary btn">A <i class="fas fa-cubes"></i></a>
+                                                                    <a href="answer-exam.php?slug=<?= $ex->slug ?>" class="text-primary btn">Answer <i class="fas fa-cubes"></i></a>
                                                                             <?php else: ?>
                                                                         <a href="answer-exam.php?slug=<?= $ex->slug ?>" class="text-success btn">Review <i class="fas fa-bolt"></i></a>
                                                                             <?php endif; ?>
                                                                         <?php else: ?>
-                                                                    <a href="exams.php" class="text-dark btn btn-warning"><?= $ex->lunch_date ?> <i class="far fa-meh"></i></a>
+                                                                    <a href="exams.php" class="text-dark btn btn-warning">Exam At <?= $ex->lunch_date ?> <i class="far fa-meh"></i></a>
                                                                     <?php endif; ?>
                                                                     
                                                                 
@@ -242,8 +242,8 @@ if(isset($_GET['delete']))
                 <?php if(!$courseStudent && !$courseTeacher): ?>
                 <div class="row">
                     <div class="col-md-12 col-lg-12 col-sm-12">
-                        <div class="white-box bg-warning">
-                           <h4 class="text-center text-dark ">You have No Enrolled Course ! Try enrolled One !</h4>
+                        <div class="white-box bg-white">
+                           <h4 class="text-center text-primary ">You have No Enrolled Course ! Try enrolled One !</h4>
                             
                         </div>
                     </div>

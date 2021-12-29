@@ -134,7 +134,14 @@ $stu_exam = User::getExamsOfUser($user->id);
                     </div>
                 </div>
                 <?php else: ?>
-                <div class="alert alert-danger text-center">No answered Exam! Try Enrolled One...</div>
+               <div class="row">
+                    <div class="col-md-12 col-lg-12 col-sm-12">
+                        <div class="white-box bg-white">
+                           <h4 class="text-center text-primary ">You have No Enrolled Course ! Try enrolled One !</h4>
+                            
+                        </div>
+                    </div>
+                </div>
                 <?php endif; ?>
 
                 </div>

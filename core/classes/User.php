@@ -98,6 +98,8 @@ class User{
        
        if($user)
         return "success";
+       else
+        return false;
     }
     //register
     public static function register($request)

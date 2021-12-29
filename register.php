@@ -76,9 +76,10 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
                                     <div class="form-group mb-4">
                                         <label class="col-md-12 p-0" for="password">Password</label>
                                         <div class="col-md-12 border-bottom p-0">
-                                            <input type="password" name="password" value="888888888" class="form-control p-0 border-0" required>
+                                            <input type="password" name="password" class="form-control p-0 border-0" required>
                                         </div>
                                     </div>
+                                   
                                    
                                     
                                     <div class="form-group mb-4">

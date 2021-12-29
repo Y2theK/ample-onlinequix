@@ -1,8 +1,7 @@
 <?php  require_once "inc/header.php";
 $user = User::auth();
-
 $counter = 1;
-
+    
 //paginate course
 $course_pagination = DB::table('courses')->orderBy('id','desc')->paginate(5);
 $course = $course_pagination['data'];
@@ -284,6 +283,7 @@ if($_POST)
           axios.post('api.php',data)
           .then(function(res){
               console.log(res.data);
+              review.value = "";
               reviewList.innerHTML = res.data;
           });
       });

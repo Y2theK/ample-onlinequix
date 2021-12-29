@@ -152,10 +152,10 @@ if(isset($_GET['exam_slug']))
                                         </div>
 
                                         <?php endforeach ?>
-                                        <hr style="border: 1px dashed red;">
+                                       
                                    
 
-                                    <?php if($courseTeacher and ($exam->lunch_date >= date('Y m d')) ): ?>
+                                    <?php if($courseTeacher): ?>
                                     <div class="form-group mb-4">
                                     
                                         <div class="col-sm-12">
@@ -166,6 +166,7 @@ if(isset($_GET['exam_slug']))
                                         </div>
                                     </div>
                                     <?php endif; ?>
+                                     <hr style="border: 1px dashed red;">
 
 
                                     <?php endforeach; endif; ?>

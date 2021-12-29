@@ -9,7 +9,7 @@ if($_POST)
 {
     // print_r($_FILES);
     $flag = User::update($_POST);
-    print_r($flag);
+    // print_r($flag);
 }
 
 ?>
@@ -50,6 +50,11 @@ if($_POST)
                 <!-- ============================================================== -->
                 <!-- Row -->
                 <div class="row">
+                     <?php if(isset($flag) and $flag == false): ?>
+                                <div class="alert alert-danger"><?php print_r($questionupd) ?></div>
+                            <?php elseif(isset($flag) and $flag == "success"):  ?>
+                                <div class="alert alert-success">update successfully</div>
+                            <?php endif;   ?>
                     <!-- Column -->
                     <div class="col-lg-4 col-xlg-3 col-md-12">
                         <div class="white-box">
