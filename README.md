@@ -23,12 +23,14 @@ I use pure PHP and mysql for this project and use ample admin dashboard for fron
 
 
 ## Features
-1. Course Management
-2. Exam Management
-3. Questions and Answer Management
-4. Exam mark automatically calculation
-5. User profile
-6. Reviewing course
+- [x] Course Management
+- [x] Exam Management
+- [x] Questions and Answer Management
+- [x] Exam mark automatically calculation
+- [x] User profile
+- [x] Reviewing course and exam
+- [ ] Reviewing Teacher Application Form
+- [ ] Account Management
 
 ## Techlogies used
 `Pure PHP` `Mysql` `Ample admin dashboard `
